@@ -95,4 +95,4 @@ if uploaded_file is not None:
     filename = 'Impact_of_Mobile_Phone_on_Students_Health_Model.sav'
     pickle.dump(model, open(filename, 'wb'))
 else:
-    st.write("Please upload a CSV file to proceed.")
+    st.write('Impact_of_Mobile_Phone_on_Students_Health (3).csv')

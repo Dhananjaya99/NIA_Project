@@ -72,8 +72,9 @@ if uploaded_file is not None:
     st.write("\n## Model Accuracy")
     st.write(accuracy_score(y_test, y_pred))
     
-    st.write("\n## Classification Report")
+    # st.write("\n## Classification Report")
     # st.text(classification_report(y_test, y_pred))
+    st.write("\n## Classification Report")
     st.text(classification_report(y_test, y_pred, zero_division=0))
     
     # Feature Importance Plot

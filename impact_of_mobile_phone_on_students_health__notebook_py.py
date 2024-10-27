@@ -18,7 +18,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score
 
 # Load the dataset
-data = pd.read_csv('/content/Impact_of_Mobile_Phone_on_Students_Health(2).csv')
+data = pd.read_csv('Impact_of_Mobile_Phone_on_Students_Health (3).csv')
 
 # Display the first few rows of the dataset
 print("First few rows of the dataset:")
